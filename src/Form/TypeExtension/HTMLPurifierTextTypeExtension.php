@@ -43,7 +43,7 @@ class HTMLPurifierTextTypeExtension extends AbstractTypeExtension
     {
         $resolver
             ->setDefaults([
-                'purify_html' => false,
+                'purify_html' => true,
                 'purify_html_profile' => 'default',
             ])
             ->setAllowedTypes('purify_html', 'bool')
